@@ -8,7 +8,7 @@ Use the mysql, and create database and tables:
 
 ```
 CREATE DATABASE db_camagru;
-USE db_camagru_;
+USE db_camagru;
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `username` varchar(100) NOT NULL,
