@@ -6,7 +6,9 @@ Camagru - school 42 project, using HTML, CSS, PHP and JS
 
 Use the mysql, and create database and tables:
 
-```bash
+```
+CREATE DATABASE db_camagru;
+USE db_camagru_;
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `username` varchar(100) NOT NULL,
@@ -17,7 +19,7 @@ CREATE TABLE `users` (
 
 ## Usage
 
-```python
+```
 under development
 ```
 
